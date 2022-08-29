@@ -1,0 +1,32 @@
+.card1 {
+    margin-top: 200px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 22px;
+}
+
+.greeting {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 18px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 5px;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}

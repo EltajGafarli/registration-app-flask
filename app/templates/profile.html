@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% block title %}<title>Profile</title>{% endblock title %}
+
+{% block links %}
+<link rel="stylesheet" href="static/css/profile.css"> 
+{% endblock links %} {% block page %}
+<div class="card1">
+    <h1>{{user.username}}</h1>
+    <p class="title">{{user.email}}</p>
+    <p class="greeting">Welcome</p>
+  </div>
+
+{% endblock page %}
